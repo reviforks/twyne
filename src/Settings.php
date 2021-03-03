@@ -121,4 +121,9 @@ class Settings
     {
         return $this->getData()['flickr_token_secret'] ?? '';
     }
+
+    public function overlandDeviceId(): string
+    {
+        return $this->getData()['overland_device_id'] ?? '';
+    }
 }
